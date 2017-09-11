@@ -1,0 +1,7 @@
+C:\Users\Полина\source\repos\Задача 5\Задача 5\bin\Debug\Задача 5.exe.config
+C:\Users\Полина\source\repos\Задача 5\Задача 5\bin\Debug\Задача 5.exe
+C:\Users\Полина\source\repos\Задача 5\Задача 5\bin\Debug\Задача 5.pdb
+C:\Users\Полина\source\repos\Задача 5\Задача 5\obj\Debug\Задача 5.csprojResolveAssemblyReference.cache
+C:\Users\Полина\source\repos\Задача 5\Задача 5\obj\Debug\Задача 5.csproj.CoreCompileInputs.cache
+C:\Users\Полина\source\repos\Задача 5\Задача 5\obj\Debug\Задача 5.exe
+C:\Users\Полина\source\repos\Задача 5\Задача 5\obj\Debug\Задача 5.pdb

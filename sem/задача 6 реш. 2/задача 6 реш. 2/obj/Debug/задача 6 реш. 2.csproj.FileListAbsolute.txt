@@ -1,0 +1,7 @@
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\bin\Debug\задача 6 реш. 2.exe.config
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\bin\Debug\задача 6 реш. 2.exe
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\bin\Debug\задача 6 реш. 2.pdb
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\obj\Debug\задача 6 реш. 2.csprojResolveAssemblyReference.cache
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\obj\Debug\задача 6 реш. 2.csproj.CoreCompileInputs.cache
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\obj\Debug\задача 6 реш. 2.exe
+C:\Users\Полина\source\repos\задача 6 реш. 2\задача 6 реш. 2\obj\Debug\задача 6 реш. 2.pdb

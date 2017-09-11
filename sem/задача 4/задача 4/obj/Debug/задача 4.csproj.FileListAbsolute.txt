@@ -1,0 +1,7 @@
+C:\Users\Полина\source\repos\задача 4\задача 4\obj\Debug\задача 4.csprojResolveAssemblyReference.cache
+C:\Users\Полина\source\repos\задача 4\задача 4\obj\Debug\задача 4.csproj.CoreCompileInputs.cache
+C:\Users\Полина\source\repos\задача 4\задача 4\bin\Debug\задача 4.exe.config
+C:\Users\Полина\source\repos\задача 4\задача 4\bin\Debug\задача 4.exe
+C:\Users\Полина\source\repos\задача 4\задача 4\bin\Debug\задача 4.pdb
+C:\Users\Полина\source\repos\задача 4\задача 4\obj\Debug\задача 4.exe
+C:\Users\Полина\source\repos\задача 4\задача 4\obj\Debug\задача 4.pdb
