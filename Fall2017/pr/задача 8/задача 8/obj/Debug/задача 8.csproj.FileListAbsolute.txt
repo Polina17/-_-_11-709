@@ -1,2 +1,0 @@
-C:\Users\Полина\source\repos\задача 8\задача 8\obj\Debug\задача 8.csprojResolveAssemblyReference.cache
-C:\Users\Полина\source\repos\задача 8\задача 8\obj\Debug\задача 8.csproj.CoreCompileInputs.cache
