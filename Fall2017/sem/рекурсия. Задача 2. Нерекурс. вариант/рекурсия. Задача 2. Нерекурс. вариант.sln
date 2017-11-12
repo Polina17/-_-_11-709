@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "рекурсия. Задача 2. Нерекурс. вариант", "рекурсия. Задача 2. Нерекурс. вариант\рекурсия. Задача 2. Нерекурс. вариант.csproj", "{8C08EA98-6C78-4B50-98A3-DF3C53731D44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C08EA98-6C78-4B50-98A3-DF3C53731D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C08EA98-6C78-4B50-98A3-DF3C53731D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C08EA98-6C78-4B50-98A3-DF3C53731D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C08EA98-6C78-4B50-98A3-DF3C53731D44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB94F4FB-BB6C-42C2-BCB5-ECC5F6C1CF40}
+	EndGlobalSection
+EndGlobal
