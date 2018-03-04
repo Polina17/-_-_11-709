@@ -78,20 +78,13 @@ namespace Семестровка_2.Часть_4.Задача_1
         }
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            string sum, resultOld;
-            sum = null;
-            for (int i = 1; i <= n; i++)
-            {
-                string result = Factorial(i);
-                if (i >= 2)
-                {
-                    resultOld = Factorial(i - 1);
-                    sum = Output(SummOfDigit(TranslateIntoNumbers(resultOld), TranslateIntoNumbers(result)));
-                }
-                else sum = Output(SummOfDigit(TranslateIntoNumbers(null), TranslateIntoNumbers(result))); ;
-            }
+
+            int p = int.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine());
+            string sum = Output(SummOfDigit(TranslateIntoNumbers(p), TranslateIntoNumbers(k)));
             Console.WriteLine(sum);
+
+
         }
     }
 }

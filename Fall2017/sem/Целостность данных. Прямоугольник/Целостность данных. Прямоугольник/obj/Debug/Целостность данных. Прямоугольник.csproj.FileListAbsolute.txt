@@ -1,0 +1,7 @@
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\bin\Debug\Целостность_данных.Прямоугольник.exe.config
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\bin\Debug\Целостность_данных.Прямоугольник.exe
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\bin\Debug\Целостность_данных.Прямоугольник.pdb
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\obj\Debug\Целостность данных. Прямоугольник.csprojResolveAssemblyReference.cache
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\obj\Debug\Целостность данных. Прямоугольник.csproj.CoreCompileInputs.cache
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\obj\Debug\Целостность_данных.Прямоугольник.exe
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\sem\Целостность данных. Прямоугольник\Целостность данных. Прямоугольник\obj\Debug\Целостность_данных.Прямоугольник.pdb

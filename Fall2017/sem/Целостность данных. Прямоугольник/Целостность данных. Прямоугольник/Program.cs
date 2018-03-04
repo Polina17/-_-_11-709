@@ -36,6 +36,7 @@ namespace Целостность_данных.Прямоугольник
             else
                 return false;
         }
+
         public static bool IsTop3 (Top top1, Top top2, Top top3)
         {
             if (IsNinetyDegrees(top1, top2, top3))
