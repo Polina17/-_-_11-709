@@ -1,0 +1,7 @@
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\bin\Debug\Замкнутый список.exe.config
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\bin\Debug\Замкнутый список.exe
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\bin\Debug\Замкнутый список.pdb
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\obj\Debug\Замкнутый список.csprojResolveAssemblyReference.cache
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\obj\Debug\Замкнутый список.csproj.CoreCompileInputs.cache
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\obj\Debug\Замкнутый список.exe
+C:\Users\Полина\source\repos\Замкнутый список\Замкнутый список\obj\Debug\Замкнутый список.pdb

@@ -1,0 +1,7 @@
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\bin\Debug\Queue односвязный список.exe.config
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\bin\Debug\Queue односвязный список.exe
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\bin\Debug\Queue односвязный список.pdb
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\obj\Debug\Queue односвязный список.csprojResolveAssemblyReference.cache
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\obj\Debug\Queue односвязный список.csproj.CoreCompileInputs.cache
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\obj\Debug\Queue односвязный список.exe
+C:\Users\Полина\source\repos\Queue односвязный список\Queue односвязный список\obj\Debug\Queue односвязный список.pdb

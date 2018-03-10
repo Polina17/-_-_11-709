@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "древовидные структуры", "древовидные структуры\древовидные структуры.csproj", "{E4BE5C8B-AEE6-4AE8-9E51-5012AE03EF6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4BE5C8B-AEE6-4AE8-9E51-5012AE03EF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BE5C8B-AEE6-4AE8-9E51-5012AE03EF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BE5C8B-AEE6-4AE8-9E51-5012AE03EF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BE5C8B-AEE6-4AE8-9E51-5012AE03EF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78821F67-8B50-4C06-B89F-0AA8E5359B94}
+	EndGlobalSection
+EndGlobal
