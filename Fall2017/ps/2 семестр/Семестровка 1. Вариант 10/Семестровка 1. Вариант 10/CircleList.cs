@@ -1,21 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Семестровка_1.Вариант_10
 {
-    public class CircleList
+    public class ListItem
     {
         public Participant Data { get; set; }
-        public CircleList Next { get; set; }
+        public ListItem Next { get; set; }
+    }
 
-        public CircleList Head { get; set; }
-        public CircleList Tail { get; set; }
+    public class CircleList
+    {
+        public ListItem Head { get; set; }
+        public ListItem Tail { get; set; }
 
-        public int Count(CircleList list)
+        public int Count()
         {
+            var list = this.Head;
             int i = 0;
             var current = list;
             while (current.Next != list)
@@ -26,8 +31,24 @@ namespace Семестровка_1.Вариант_10
             return i + 1;
         }
 
-        public void Show(CircleList list)
+        public bool Contains(Participant participant)
         {
+            var list = this.Head;
+            var current = list;
+            while (current.Next != list)
+            {
+                if ((current.Data.Name == participant.Name) & (current.Data.Gender == participant.Gender))
+                    return true;
+            }
+            if ((this.Tail.Data.Name == participant.Name) & (this.Tail.Data.Gender == participant.Gender))
+                return true;
+            return false;
+        }
+
+        public void Show()
+        {
+            var list = this.Head;
+            if (list == null) throw new NullReferenceException();
             var current = list;
             while (current.Next != list)
             {
@@ -37,11 +58,12 @@ namespace Семестровка_1.Вариант_10
             Console.WriteLine("{0} {1}", current.Data.Name, current.Data.Gender);
         }
 
-        public void Insert(CircleList list, Participant participant)
+        public void Insert(Participant participant)
         {
+            var list = this.Head;
             if (list == null)
             {
-                var root = new CircleList { Data = participant };
+                var root = new ListItem { Data = participant };
                 list = root;
             }
             else
@@ -53,77 +75,80 @@ namespace Семестровка_1.Вариант_10
                         break;
                     current = current.Next;
                 }
-                if ((current == list.Tail) & (current.Tail.Data.Name != participant.Name) & (current.Tail.Data.Gender != participant.Gender))
+                if ((current == this.Tail) & (this.Tail.Data.Name != participant.Name) & (this.Tail.Data.Gender != participant.Gender))
                 {
-                    CircleList tail = new CircleList { Data = participant };
-                    list.Tail.Next = tail;
-                    list.Tail = tail;
-                    list.Tail.Next = list;
+                    ListItem tail = new ListItem { Data = participant };
+                    this.Tail.Next = tail;
+                    this.Tail = tail;
+                    this.Tail.Next = this.Head;
                 }
             }
-            Console.WriteLine(list);
         }
 
-        public void Delete(CircleList list, string name)
+        public void Delete(string name)
         {
+
+            var list = this.Head;
             var current = list;
             while (current.Next != list)
             {
                 if (current.Next.Data.Name == name)
                 {
-                    var root = current.Next;
-                    current.Next = root.Next;
-                    root = null;
+                    var extra = current.Next;
+                    current.Next = extra.Next;
+                    extra = null;
                 }
                 current = current.Next;
             }
             if (list.Data.Name == name)
             {
-                var root = list;
-                list.Tail = root.Next;
-                root = null;
+                var extra = list;
+                this.Tail = extra.Next;
+                extra = null;
             }
-            Console.WriteLine(list);
         }
 
-        public Participant ParticipantLast(CircleList list, int k)
+        public Participant ParticipantLast(int k)
         {
+            var list = this.Head;
             int i = 1;
             var current = list;
             while (current.Next != list)
             {
                 if ((i - 1) % k == 0)
-                    Delete(list, current.Data.Name);
+                    Delete(current.Data.Name);
                 current = current.Next;
                 i++;
             }
             if ((i - 1) % k == 0)
-                Delete(list, list.Tail.Data.Name);
-            return list.Tail.Data;
+                Delete(this.Tail.Data.Name);
+            return this.Tail.Data;
         }
 
-        public CircleList[] Gender(CircleList list)
+        public CircleList[] Gender()
         {
             var current = new CircleList[2];
+            var list = this.Head;
             var root = list;
             while (root.Next != list)
             {
                 if (root.Data.Gender == "man")
-                    Insert(current[0], root.Data);
+                    current[0].Insert(root.Data);
                 else
-                    Insert(current[1], root.Data);
+                    current[1].Insert(root.Data);
                 root = root.Next;
             }
-            if (root.Tail.Data.Gender == "man")
-                Insert(current[1], root.Tail.Data);
+            if (this.Tail.Data.Gender == "man")
+                current[0].Insert(this.Tail.Data);
             else
-                Insert(current[1], root.Tail.Data);
+                current[1].Insert(this.Tail.Data);
             return current;
         }
 
-        public CircleList Sort(CircleList list)
+        public CircleList Sort()
         {
-            int count = Count(list);
+            var list = this.Head;
+            int count = this.Count();
             var arr = new Participant[count];
             var current = list;
             int k = 0;
@@ -133,7 +158,7 @@ namespace Семестровка_1.Вариант_10
                 k++;
                 current = current.Next;
             }
-            arr[count - 1] = list.Tail.Data;
+            arr[count - 1] = this.Tail.Data;
             for (int i = 0; i < count; i++)
             {
                 for (int j = i + 1; j < count; j++)
@@ -149,7 +174,7 @@ namespace Семестровка_1.Вариант_10
             CircleList sortList = new CircleList();
             for (int b = 0; b < count; b++)
             {
-                Insert(sortList, arr[b]);
+                sortList.Insert(arr[b]);
             }
             return sortList;
         }
