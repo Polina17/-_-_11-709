@@ -21,6 +21,8 @@ namespace Queue_односвязный_список
             Node Tail { get; set; }
             public int Count { get; set; }
 
+            public bool IsEmpty { get { return Head == null; } }
+
             public T First()
             {
                 if (Count == 0) throw new InvalidOperationException();
@@ -66,10 +68,13 @@ namespace Queue_односвязный_список
             static void Main()
             {
                 var queue = new Queue();
-                for (int i = 0; i < 3; i++)
-                    queue.Enqueue(i);
-                for (int i = 0; i < 3; i++)
+                queue.Enqueue(1);
+                queue.Enqueue(2);
+                queue.Enqueue(3);
+
+                while (!queue.IsEmpty())
                     Console.WriteLine(queue.Dequeue());
+
             }
         }
     }
