@@ -212,7 +212,7 @@ namespace SmoothSort
             }
         }
 
-        private void Swap(ref int a, ref int b) // функция перестановки(Swap)
+        private void Swap(ref int a, ref int b) // функция перестановки
         {
             int temp = b;
             b = a;

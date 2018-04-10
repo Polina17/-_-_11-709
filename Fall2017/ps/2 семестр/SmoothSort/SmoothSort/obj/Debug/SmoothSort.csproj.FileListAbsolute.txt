@@ -1,0 +1,7 @@
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\bin\Debug\SmoothSort.exe.config
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\bin\Debug\SmoothSort.exe
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\bin\Debug\SmoothSort.pdb
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\obj\Debug\SmoothSort.csprojResolveAssemblyReference.cache
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\obj\Debug\SmoothSort.csproj.CoreCompileInputs.cache
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\obj\Debug\SmoothSort.exe
+C:\Users\Полина\Desktop\Fall2017\Zyryanova_Polina_11-709\Fall2017\ps\2 семестр\SmoothSort\SmoothSort\obj\Debug\SmoothSort.pdb
